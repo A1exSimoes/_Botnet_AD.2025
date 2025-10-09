@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "IForest_train_pct": 19.98,
+    "IForest_test_pct": 32.89,
+    "HDBSCAN_train_pct": 26.94,
+    "HDBSCAN_test_pct": 98.42,
+    "Consensus_train_pct": 6.12,
+    "Consensus_test_pct": 31.46,
+    "Agreement_train_pct": 65.32,
+    "Agreement_test_pct": 31.61,
+    "Silhouette_IF_train": 0.6031,
+    "Silhouette_HDB_train": -0.4584
+  },
+  "rf_feature_importances": {
+    "Log_BRate": 0.31595947393570845,
+    "Log_IATime": 0.2581940199780612,
+    "Pkt_Per_Src": 0.12296410880574565,
+    "BoxCox_Length": 0.12294132354680398,
+    "BoxCox_PRate": 0.044634915180093444,
+    "Session_Dur_Src": 0.0338952804417956,
+    "Length_Std": 0.032536114329350725,
+    "Length_Mean": 0.0323739300044544,
+    "Session_Dur_Dst": 0.02100662767248895,
+    "Time_Diff": 0.015494206105497682
+  },
+  "top_botnets_test": {
+    "Normal": 137083,
+    "HighBurst": 45552,
+    "Large_Packets": 17173,
+    "Sustained_HighRate": 175,
+    "Short_Bursts": 17
+  }
+}
