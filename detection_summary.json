@@ -1,33 +1,32 @@
 {
   "summary": {
-    "IForest_train_pct": 19.98,
-    "IForest_test_pct": 32.89,
-    "HDBSCAN_train_pct": 26.94,
-    "HDBSCAN_test_pct": 98.42,
-    "Consensus_train_pct": 6.12,
-    "Consensus_test_pct": 31.46,
-    "Agreement_train_pct": 65.32,
-    "Agreement_test_pct": 31.61,
-    "Silhouette_IF_train": 0.6031,
-    "Silhouette_HDB_train": -0.4584
+    "IForest_train_pct": 5.0,
+    "IForest_test_pct": 76.76,
+    "HDBSCAN_train_pct": 24.45,
+    "HDBSCAN_test_pct": 76.96,
+    "Consensus_train_pct": 2.13,
+    "Consensus_test_pct": 59.77,
+    "Agreement_train_pct": 74.82,
+    "Agreement_test_pct": 65.81,
+    "Silhouette_IF_train": 0.903,
+    "Silhouette_HDB_train": 0.5138
   },
   "rf_feature_importances": {
-    "Log_BRate": 0.31595947393570845,
-    "Log_IATime": 0.2581940199780612,
-    "Pkt_Per_Src": 0.12296410880574565,
-    "BoxCox_Length": 0.12294132354680398,
-    "BoxCox_PRate": 0.044634915180093444,
-    "Session_Dur_Src": 0.0338952804417956,
-    "Length_Std": 0.032536114329350725,
-    "Length_Mean": 0.0323739300044544,
-    "Session_Dur_Dst": 0.02100662767248895,
-    "Time_Diff": 0.015494206105497682
+    "BoxCox_Length": 0.17691456206472395,
+    "Log_IATime": 0.15636439523201473,
+    "Pkt_Per_Src": 0.1394857638615382,
+    "Log_BRate": 0.1039361684614572,
+    "Session_Dur_Src": 0.09976235336778418,
+    "Length_Std": 0.0960729405171806,
+    "Length_Mean": 0.08309001726975847,
+    "Time_Diff": 0.062252391372258985,
+    "BoxCox_PRate": 0.046491994500037014,
+    "Session_Dur_Dst": 0.035629413353246694
   },
   "top_botnets_test": {
-    "Normal": 137083,
-    "HighBurst": 45552,
-    "Large_Packets": 17173,
-    "Sustained_HighRate": 175,
-    "Short_Bursts": 17
+    "Normal": 70410,
+    "Unknown": 47592,
+    "ClickFraud": 30534,
+    "PortScan": 26464
   }
 }
