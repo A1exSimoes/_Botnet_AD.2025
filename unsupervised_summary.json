@@ -1,0 +1,36 @@
+{
+  "n_train_rows": 5114514,
+  "n_test_rows": 9388270,
+  "IsolationForest": {
+    "train_anomaly_pct": 8.063131707137766,
+    "test_anomaly_pct": 1.7675674005967021
+  },
+  "LOF": {
+    "train_anomaly_pct": 14.78099385396149,
+    "test_anomaly_pct": 62.194525721991376,
+    "fit_sample_n": 200000
+  },
+  "agreement": {
+    "train_pct": 79.6581649791163,
+    "test_pct": 38.06735426228688
+  },
+  "silhouette_sample_IF": 0.0,
+  "features": [
+    "Time_Diff",
+    "Log_IATime",
+    "Log_BRate",
+    "BoxCox_Length",
+    "BoxCox_PRate",
+    "Length_Mean",
+    "Length_Std",
+    "Pkt_Per_Src",
+    "Session_Dur_Src",
+    "Session_Dur_Dst",
+    "Rate_to_Length",
+    "IAT_to_Session",
+    "Burst_Variability",
+    "Pkt_Rate_Change",
+    "Bytes_Per_Session_Src",
+    "Packets_Per_Session_Src"
+  ]
+}
