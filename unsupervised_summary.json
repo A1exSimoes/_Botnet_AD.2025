@@ -2,19 +2,19 @@
   "n_train_rows": 5114514,
   "n_test_rows": 9388270,
   "IsolationForest": {
-    "train_anomaly_pct": 8.063131707137766,
-    "test_anomaly_pct": 1.7675674005967021
+    "train_anomaly_pct": 8.325522229482605,
+    "test_anomaly_pct": 1.9991116574193117
   },
   "LOF": {
-    "train_anomaly_pct": 14.78099385396149,
-    "test_anomaly_pct": 62.194525721991376,
+    "train_anomaly_pct": 12.546548899856369,
+    "test_anomaly_pct": 45.12708944246384,
     "fit_sample_n": 200000
   },
   "agreement": {
-    "train_pct": 79.6581649791163,
-    "test_pct": 38.06735426228688
+    "train_pct": 81.70056822603281,
+    "test_pct": 55.271024374032706
   },
-  "silhouette_sample_IF": 0.0,
+  "db_index_IF": 1.9925090043035063,
   "features": [
     "Time_Diff",
     "Log_IATime",
