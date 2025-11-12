@@ -1,0 +1,110 @@
+{
+  "train_distribution": {
+    "Normal": 218785,
+    "Other": 218785,
+    "Virut": 218785,
+    "Neris": 218785
+  },
+  "test_distribution": {
+    "Normal": 190226,
+    "Neris": 122136,
+    "Other": 36256,
+    "Virut": 1382
+  },
+  "rf_report": {
+    "Neris": {
+      "precision": 0.9066892322637443,
+      "recall": 0.9781636863823934,
+      "f1-score": 0.9410712879086255,
+      "support": 122136.0
+    },
+    "Normal": {
+      "precision": 0.9708161466212466,
+      "recall": 0.9378476128394646,
+      "f1-score": 0.9540471453934843,
+      "support": 190226.0
+    },
+    "Other": {
+      "precision": 0.9796052043945574,
+      "recall": 0.907491173874669,
+      "f1-score": 0.9421702962358433,
+      "support": 36256.0
+    },
+    "Virut": {
+      "precision": 0.5832389580973952,
+      "recall": 0.37264833574529665,
+      "f1-score": 0.45474613686534215,
+      "support": 1382.0
+    },
+    "accuracy": 0.94654,
+    "macro avg": {
+      "precision": 0.8600873853442359,
+      "recall": 0.799037702210456,
+      "f1-score": 0.8230087166008239,
+      "support": 350000.0
+    },
+    "weighted avg": {
+      "precision": 0.9478184883130218,
+      "recall": 0.94654,
+      "f1-score": 0.9463172586317241,
+      "support": 350000.0
+    }
+  },
+  "ensemble_report": {
+    "Neris": {
+      "precision": 0.9191606467148263,
+      "recall": 0.984476321477697,
+      "f1-score": 0.9506979612652253,
+      "support": 122136.0
+    },
+    "Normal": {
+      "precision": 0.9763581108118923,
+      "recall": 0.9491552153753956,
+      "f1-score": 0.9625645071864204,
+      "support": 190226.0
+    },
+    "Other": {
+      "precision": 0.983778597343408,
+      "recall": 0.9049536628420124,
+      "f1-score": 0.9427212780323818,
+      "support": 36256.0
+    },
+    "Virut": {
+      "precision": 0.6024229074889867,
+      "recall": 0.3958031837916064,
+      "f1-score": 0.4777292576419214,
+      "support": 1382.0
+    },
+    "accuracy": 0.9547171428571428,
+    "macro avg": {
+      "precision": 0.8704300655897784,
+      "recall": 0.8085970958716778,
+      "f1-score": 0.8334282510314872,
+      "support": 350000.0
+    },
+    "weighted avg": {
+      "precision": 0.9556906514797069,
+      "recall": 0.9547171428571428,
+      "f1-score": 0.9544536189472479,
+      "support": 350000.0
+    }
+  },
+  "feature_list": [
+    "Time_Diff",
+    "Log_IATime",
+    "Log_BRate",
+    "BoxCox_Length",
+    "BoxCox_PRate",
+    "Length_Mean",
+    "Length_Std",
+    "Pkt_Per_Src",
+    "Session_Dur_Src",
+    "Session_Dur_Dst",
+    "Rate_to_Length",
+    "IAT_to_Session",
+    "Burst_Variability",
+    "Pkt_Rate_Change",
+    "Bytes_Per_Session_Src",
+    "Packets_Per_Session_Src"
+  ]
+}
